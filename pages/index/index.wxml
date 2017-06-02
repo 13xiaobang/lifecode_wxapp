@@ -1,0 +1,41 @@
+
+<!--index.wxml-->
+<view>
+  <image style="width:750rpx; height:300rpx;" mode='aspectFill' src="../res/images/pic.jpg" />
+</view>
+<view class="section">
+  <view class="flex-wrp" style="flex-direction:row;align-tiems:center">
+    <view style="width:30%">
+      <text>姓名：</text>
+    </view>
+    <view style="width:70%">
+      <input type="text" bindchange="nameChange"/>
+    </view>
+  </view>
+  <view class="sex-wrp" style="flex-direction:row;justify-content:space-between">
+    <view style="display:flex-start;">
+      <text>性别：</text>
+    </view>
+    <view style="align-items:flex-end;">
+      <radio-group class="radio-group" bindchange="sexChange">
+        <label class="radio" wx:for-items="{{sexs}}">
+          <radio value="{{item.name}}" checked="{{item.checked}}" />{{item.value}}
+        </label>
+      </radio-group>
+    </view>
+  </view>
+  <picker mode="date" value="{{birthday}}" start="1900-01-01" bindchange="birthdayChange">
+    <view class="birthday-wrp">
+      <view style="display:flex-start;width:30%">
+        <text>生日：</text>
+      </view>
+      <view class="picker" style="display:flex-end;width:70%">
+        {{birthday}}
+      </view>
+    </view>
+  </picker>
+  <view class="button-wrapper">
+    <button type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap="goto_result"> 点一下，遇见未知的自己
+    </button>
+  </view>
+</view>

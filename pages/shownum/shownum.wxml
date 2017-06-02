@@ -1,0 +1,11 @@
+<scroll-view scroll-y="true" bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}" class="bc_opacity_5" style="font-size:18pt;">
+  <view id="1" class="scroll-view-item bc_1" bindtap="goto_1">数字1的含义：创世数</view>
+  <view id="2" class="scroll-view-item bc_2" bindtap="goto_2">数字2的含义：平衡数</view>
+  <view id="3" class="scroll-view-item bc_3" bindtap="goto_3">数字3的含义：表达数</view>
+  <view id="4" class="scroll-view-item bc_4" bindtap="goto_4">数字4的含义：执行数</view>
+  <view id="5" class="scroll-view-item bc_5" bindtap="goto_5">数字5的含义：自由数</view>
+  <view id="6" class="scroll-view-item bc_6" bindtap="goto_6">数字6的含义：奉献数</view>
+  <view id="7" class="scroll-view-item bc_7" bindtap="goto_7">数字7的含义：幸运数</view>
+  <view id="8" class="scroll-view-item bc_8" bindtap="goto_8">数字8的含义：因果数</view>
+  <view id="9" class="scroll-view-item bc_9" bindtap="goto_9">数字9的含义：大爱数</view>
+</scroll-view>

@@ -1,0 +1,13 @@
+<view class="section">
+  <view class="flex-wrp">
+    <view>
+      <image style="width:256rpx; height:256rpx;" mode='aspectFill' src="../res/images/my_face.jpg" />
+    </view>
+  </view>
+</view>
+<view class="section_gap" style="font-size:11pt">
+  <text>感谢使用！该小程序只是个兴趣之作，并无任何商业目的，玄学内容大多搜集与网络上，如有任何版权问题，请联系作者处理。如果喜欢可以右上角分享小程序。\n\n作者为嵌入式操作系统攻城狮，并无任何前端经验，UI有些简陋，请见谅-_-|||\n\n</text>
+  <text>微信号: coolfrankzhang\n</text>
+  <text>邮箱: coolfrankzhang@gmail.com\n</text>
+  <text>Github: https://github.com/13xiaobang\n</text>
+</view>

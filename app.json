@@ -1,0 +1,39 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/numres/numres",
+    "pages/introduction/introduction",
+    "pages/shownum/shownum",
+    "pages/numdetail/numdetail"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "生命数字密码",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#888",
+    "selectedColor": "#89bdf7",
+    "backgroundColor": "#fff",
+    "borderStyle": "white",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "测一测",
+      "iconPath": "pages/res/tarbar/home.png",
+      "selectedIconPath": "pages/res/tarbar/home_active.png"
+    }, 
+    {
+      "pagePath": "pages/shownum/shownum",
+      "text": "数字奥秘",
+      "iconPath": "pages/res/tarbar/number.png",
+      "selectedIconPath": "pages/res/tarbar/number_active.png"
+    }, 
+    {
+      "pagePath": "pages/introduction/introduction",
+      "text": "关于",
+      "iconPath": "pages/res/tarbar/introduction.png",
+      "selectedIconPath": "pages/res/tarbar/introduction_active.png"
+    }]
+  }
+}

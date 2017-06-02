@@ -1,0 +1,14 @@
+<view class="section_gap">
+  <text style="font-weight:bold;font-size:18px">数字{{id}}的含义：{{num_data.title}}\n\n</text>
+  <text>{{num_data.p1_data}}\n\n</text>
+  <text style="font-weight:bold;font-size:18px">数字{{id}}代表的含义：\n\n{{num_data.p2_title}}</text>
+  <text>{{num_data.p2_data}}\n\n</text>
+  <text style="font-weight:bold;font-size:18px">正面优势\n\n</text>
+  <text>{{num_data.p3_data}}\n\n</text>
+  <text style="font-weight:bold;font-size:18px">负面挑战\n\n</text>
+  <text>{{num_data.p4_data}}\n\n</text>
+  <text style="font-weight:bold;font-size:18px">恐惧\n\n</text>
+  <text>{{num_data.p5_data}}\n\n</text>
+  <text style="font-weight:bold;font-size:18px">象征意义\n\n</text>
+  <text>{{num_data.p6_data}}</text>
+</view>

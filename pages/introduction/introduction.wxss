@@ -1,0 +1,8 @@
+.flex-wrp {
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  margin: 50rpx 10rpx 50rpx 10rpx;
+  height: 100%;
+  width: 100%;
+}

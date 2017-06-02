@@ -1,0 +1,32 @@
+<view class="section">
+  <view class="flex-wrp">
+    <view>
+      <image style="width:200rpx; height:300rpx;" mode='aspectFill' src="{{load_pic}}" />
+    </view>
+  </view>
+</view>
+<view class="page__bd section section_gap">
+  <text>姓名：{{name}} 性别：{{sex}}\n</text>
+  <text>生日：{{birthday}}\n\n</text>
+</view>
+<view class="page__bd">
+  <view class="section section_gap" style="color:#e64340;text-decoration: underline" bindtap="clk_ming">
+    <text>生命灵数：{{ming_data}}\n\n</text>
+  </view>
+  <view wx:if="{{tianfu_num1 == 0}}" class="section section_gap" bindtap="clk_tianfu" style="color:#576b95">
+    <text>天赋数：{{tianfu_num0}}\n{{tianfu_data}}\n</text>
+  </view>
+  <view wx:else class="section section_gap" bindtap="clk_tianfu" style="color:#576b95">
+    <text>天赋数：{{tianfu_num0}}, {{tianfu_num1}}\n{{tianfu_data}}\n</text>
+  </view>
+  <view class="section section_gap" bindtap="clk_shengri" style="color:#576b95">
+    <text>生日数：{{shengri_data}}\n\n</text>
+  </view>
+  <view class="section section_gap" bindtap="clk_xingzuo" style="color:#576b95">
+    <text>星座数：{{xingzuo_data}}\n\n</text>
+  </view>
+  <view class="section section_gap" style="color:#353535">
+    <text>先天数：{{xiantian_num}}\n\n</text>
+    <text>空缺数：{{kongque_num}}\n</text>
+  </view>
+</view>
